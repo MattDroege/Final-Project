@@ -2,25 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f44879aa-22ad-4058-a2a8-90575ad8aade" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FInal HTML/.idea/hold.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../FInal HTML/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../FInal HTML/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../FInal HTML/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../FInal HTML/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FInal HTML/Egnogpic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FInal HTML/Lock-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FInal HTML/Signin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FInal HTML/Usermain.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../FInal HTML/WebUI.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FInal HTML/app/Pictures/Egnogpic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FInal HTML/app/Pictures/Lock-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FInal HTML/app/Pictures/bookmarkimg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FInal HTML/app/Pictures/passimg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FInal HTML/app/Pictures/taskmangerimg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FInal HTML/app/ui/pages/Signin.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FInal HTML/app/ui/pages/Usermain.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FInal HTML/app/ui/pages/signup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FInal HTML/app/ui/style/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FInal HTML/bookmarkimg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FInal HTML/passimg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FInal HTML/signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FInal HTML/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FInal HTML/taskmangerimg.jpg" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -189,8 +185,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/ui/pages/Usermain.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+            <state relative-caret-position="210">
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -264,6 +260,12 @@
               <item name="FinalHTML" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FinalHTML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalHTML" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -276,7 +278,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543341973820" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543343124409" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -329,15 +331,16 @@
       <workItem from="1543256579270" duration="889000" />
       <workItem from="1543275436850" duration="2461000" />
       <workItem from="1543341458445" duration="574000" />
-      <workItem from="1543342227812" duration="616000" />
+      <workItem from="1543342227812" duration="892000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46641000" />
+    <option name="totallyTimeSpent" value="46917000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15436241" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -456,8 +459,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/ui/pages/Usermain.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        <state relative-caret-position="210">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
