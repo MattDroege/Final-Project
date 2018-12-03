@@ -1,5 +1,6 @@
 <template name="Home_Page">
-<div class="ui equal width grid">
+  <div class="ui inverted vertical masthead center aligned segment" style="padding-right: 5px">
+    <div class="ui equal width grid">
       <div class="column">
         <h1 class="inverted fontsize text" style="padding-top: 100px; font-family: HACKED; color: whitesmoke; font-size: 12rem">EGNOG</h1>
       </div>
@@ -47,8 +48,13 @@
           <h1 style="color: whitesmoke" class="ui header">CONNECT</h1>
           <hr width="75%"/>
           <div class="item">Sign up for the latest updates</div>
-          <a href="#" class="right aligned item">{{> loginButtons align="right"}} </a>
+          <div class="ui inverted button">
+            <a href="/signup">
+              <div class="text" style="color: whitesmoke">Sign up</div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
+  </div>
 </template>

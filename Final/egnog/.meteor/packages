@@ -25,6 +25,9 @@ jquery
 kadira:flow-router
 kadira:blaze-layout
 arillo:flow-router-helpers
+
 accounts-ui
 accounts-password
 useraccounts:unstyled
+accounts-base
+raix:handlebar-helpers
