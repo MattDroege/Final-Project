@@ -18,9 +18,9 @@ FlowRouter.route('/signup', {
 });
 
 FlowRouter.route('/usermain', {
-  name: 'Home_Page',
+  name: 'User_Main',
   action() {
     console.log("precious");
-    BlazeLayout.render('App_Body', { main: 'Home_Page' });
+    BlazeLayout.render('App_Body', { main: 'User_Main' });
   },
 });

@@ -6,4 +6,3 @@ import './header.js';
 import './footer.js';
 import './signup-body.html';
 import './signup-body'
-

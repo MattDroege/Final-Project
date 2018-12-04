@@ -5,20 +5,24 @@
       <div class="column"></div>
       <div class="column">
         <div class="ui secondary topmenu menu">
+          {{#if  $not currentUser}}
           <div class="fluid ui inverted floating simple dropdown button" style="color: whitesmoke">Nogin
             <i class="dropdown icon"></i>
             <div class="menu">
           <div class="item">{{> Login_Form}}</div>
           </div>
         </div>
-          <div class="fluid ui inverted button">
-            <a href="/signup">
-              <div class="text" style="color: whitesmoke">Sign up</div>
-            </a>
-          </div>
+          {{else}}
+            <div class="fluid ui inverted floating button" style="color: whitesmoke">
+              <a class="logout" style="color: whitesmoke"></a>
+            </div>
+            <div class="fluid ui inverted floating button" style="color: whitesmoke">
+                <a class="logout" style="color: whitesmoke">Nogout</a>
+            </div>
+          {{/if}}
+        </div>
       </div>
     </div>
-  </div>
   <script>
     $('.ui.dropdown')
         .dropdown()
