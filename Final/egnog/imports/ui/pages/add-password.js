@@ -12,7 +12,7 @@ import { Passwords } from '../../api/passwords/passwords.js';
 AutoForm.hooks({
   AddPasswordForm: {
     /**
-     * After successful form submission, go to List_Stuff_Page.
+     * After successful form submission, go to List_Passwords.
      * @param formType The form.
      * @param result The result of form submission.
      */

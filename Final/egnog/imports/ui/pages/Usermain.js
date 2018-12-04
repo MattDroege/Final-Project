@@ -1,5 +1,5 @@
 import { Template } from 'meteor/templating';
-
+import '/client/lib/semantic-ui/definitions/modules/tab.js';
 // The Header menu does not use dropdown menus, but most menus do.
 // Here's how to do the required initialization for Semantic UI dropdown menus.
 

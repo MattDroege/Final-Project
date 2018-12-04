@@ -1,30 +1,33 @@
 <template name="User_Main">
 <div class="ui inverted vertical masthead center aligned segment" style="padding-right: 5px">
-  <div class="ui equal width grid">
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-  </div>
+  <a href="/usermain">
   <h1 class="inverted fontsize umain text" style="padding-top: 30px">EGNOG</h1>
+  </a>
 </div>
 <div class="ui top attached tabular menu">
   <a class="item active" data-tab="first">Passwords</a>
-  <a class="item" data-tab="second">Bookmarks</a>
-  <a class="item" data-tab="third">Tasks</a>
+  <a class="item active" data-tab="second">Bookmarks</a>
+  <a class="item active" data-tab="third">Tasks</a>
 </div>
 <div class="ui bottom attached tab segment active" data-tab="first">
-  <div class="ui container">
     <div ui="ui menu">
-    <a class="{{ isActiveRoute 'Add_Password'}} item" href="{{ pathFor 'Add_Password' }}">Add Stuff </a>
-    <a class="{{ isActiveRoute 'List_Passwords'}} item" href="{{ pathFor 'List_Passwords' }}">List Stuff</a>
+      <div class="ui button">
+    <a class="{{ isActiveRoute 'Add_Password'}} item" href="{{ pathFor 'Add_Password' }}">
+      <div class="text">Add Password</div>
+    </a>
+      </div>
+      <div class="ui button">
+    <a class="{{ isActiveRoute 'List_Passwords'}} item" href="{{ pathFor 'List_Passwords' }}">
+      <div class="text">List Password</div>
+    </a>
+      </div>
   </div>
   {{>Template.dynamic template=umain}}
+</div>
+  <div class="ui bottom attached tab segment" data-tab="second">
+    Second
   </div>
-</div>
-<div class="ui bottom attached tab segment" data-tab="second">
-  Second
-</div>
-<div class="ui bottom attached tab segment" data-tab="third">
-  Third
-</div>
+  <div class="ui bottom attached tab segment" data-tab="third">
+    Third
+  </div>
 </template>
