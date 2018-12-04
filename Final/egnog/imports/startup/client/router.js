@@ -1,6 +1,8 @@
 import { FlowRouter } from 'meteor/kadira:flow-router';
 import { BlazeLayout } from 'meteor/kadira:blaze-layout';
 
+Accounts.onLogin(function() { FlowRouter.go('/usermain'); });
+
 FlowRouter.route('/', {
   name: 'Home_Page',
   action() {
