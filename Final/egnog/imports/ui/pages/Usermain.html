@@ -5,7 +5,7 @@
     <div class="column"></div>
     <div class="column"></div>
   </div>
-  <h1 class="inverted fontsize text" style="padding-top: 30px">EGNOG</h1>
+  <h1 class="inverted fontsize umain text" style="padding-top: 30px">EGNOG</h1>
 </div>
 <div class="ui top attached tabular menu">
   <a class="item active" data-tab="first">Passwords</a>
@@ -13,7 +13,13 @@
   <a class="item" data-tab="third">Tasks</a>
 </div>
 <div class="ui bottom attached tab segment active" data-tab="first">
-  {{> Add_Password}}
+  <div class="ui container">
+    <div ui="ui menu">
+    <a class="{{ isActiveRoute 'Add_Password'}} item" href="{{ pathFor 'Add_Password' }}">Add Stuff </a>
+    <a class="{{ isActiveRoute 'List_Passwords'}} item" href="{{ pathFor 'List_Passwords' }}">List Stuff</a>
+  </div>
+  {{>Template.dynamic template=umain}}
+  </div>
 </div>
 <div class="ui bottom attached tab segment" data-tab="second">
   Second
@@ -21,9 +27,4 @@
 <div class="ui bottom attached tab segment" data-tab="third">
   Third
 </div>
-<script>
-  $('.menu .item')
-      .tab()
-  ;
-</script>
 </template>

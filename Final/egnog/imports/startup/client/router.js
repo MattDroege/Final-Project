@@ -26,3 +26,19 @@ FlowRouter.route('/usermain', {
     BlazeLayout.render('App_Body', { main: 'User_Main' });
   },
 });
+
+FlowRouter.route('/usermain/addpassword', {
+  name: 'Add_Password',
+  action() {
+    console.log("precious");
+    BlazeLayout.render('User_Main', { umain: 'Add_Password' });
+  },
+});
+
+FlowRouter.route('/usermain/listpassword', {
+  name: 'List_Passwords',
+  action() {
+    console.log("precious");
+    BlazeLayout.render('User_Main', { umain: 'List_Passwords' });
+  },
+});

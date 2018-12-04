@@ -9,3 +9,5 @@ import './list-passwords.html';
 import './list-passwords.js';
 import './edit-password.html';
 import './edit-password.js';
+import './if-logged-in.html';
+import './if-logged-in.js';

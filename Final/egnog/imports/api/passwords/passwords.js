@@ -1,6 +1,6 @@
-import { Mongo } from 'meteor/mongo';
-import { SimpleSchema } from 'meteor/aldeed:simple-schema';
-
+import SimpleSchema from 'simpl-schema';
+SimpleSchema.extendOptions(['autoform']);
+ 
 /* eslint-disable object-shorthand */
 
 export const Passwords = new Mongo.Collection('Passwords');
