@@ -13,11 +13,9 @@
   <a class="item" data-tab="third">Tasks</a>
 </div>
 <div class="ui bottom attached tab segment active" data-tab="first">
-  <div class="ui container">
-    <div ui="ui menu">
+    <div ui="ui two item menu">
     <a class="{{ isActiveRoute 'Add_Password'}} item" href="{{ pathFor 'Add_Password' }}">Add Stuff </a>
     <a class="{{ isActiveRoute 'List_Passwords'}} item" href="{{ pathFor 'List_Passwords' }}">List Stuff</a>
-  </div>
   {{>Template.dynamic template=umain}}
   </div>
 </div>

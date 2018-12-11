@@ -34,3 +34,4 @@ raix:handlebar-helpers
 aldeed:simple-schema
 aldeed:collection2@3.0.0
 aldeed:autoform
+flemay:less-autoprefixer
