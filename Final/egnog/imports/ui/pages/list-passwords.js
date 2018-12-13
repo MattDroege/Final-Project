@@ -1,12 +1,12 @@
 import { Template } from 'meteor/templating';
 import { Passwords } from '../../api/passwords/passwords.js';
+import { Meteor } from 'meteor/meteor';
 
 Template.List_Passwords.helpers({
 
-  /**
-   * @returns {*} All of the Stuff documents.
-   */
   passwordsList() {
-    return Passwords.find();
+  	var currentUser = Meteor.userId();
+  	console.log("egshit");
+    return Passwords.find({ ownerId: currentUser });
   },
 });

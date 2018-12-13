@@ -1,5 +1,6 @@
 import { FlowRouter } from 'meteor/kadira:flow-router';
 import { BlazeLayout } from 'meteor/kadira:blaze-layout';
+import { Meteor } from 'meteor/meteor';
 
 Accounts.onLogin(function() { FlowRouter.go('/usermain/listpassword'); });
 

@@ -9,6 +9,12 @@ export const Passwords = new Mongo.Collection('Passwords');
  * Create the schema for Stuff
  */
 export const PasswordsSchema = new SimpleSchema({
+  ownerId: {
+     type: String,
+     autoform: {
+     type: "hidden",
+    }
+  },
   url: {
     label: 'URL',
     type: String,
