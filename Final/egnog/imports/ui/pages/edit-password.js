@@ -11,11 +11,6 @@ import { Passwords } from '../../api/passwords/passwords.js';
  */
 AutoForm.hooks({
   EditPasswordForm: {
-    /**
-     * After successful form submission, go to List_Stuff_Page.
-     * @param formType The form.
-     * @param result The result of form submission.
-     */
     onSuccess: function onSuccess(formType, result) {
       FlowRouter.go('List_Passwords');
       console.log("list pass success");
@@ -25,6 +20,7 @@ AutoForm.hooks({
 
 Template.Edit_Password.helpers({
   getDoc() {
+    
     return Passwords.findOne(FlowRouter.getParam('_id'));
   },
   passwordsCollection() {
