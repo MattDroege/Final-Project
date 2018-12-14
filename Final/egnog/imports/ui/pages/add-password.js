@@ -27,6 +27,7 @@ AutoForm.hooks({
 Template.Add_Password.helpers({
   currentUserId: function (){
     return Meteor.userId();
+    console.log("Password Added")
   },
   passwordsCollection() {
     return Passwords;

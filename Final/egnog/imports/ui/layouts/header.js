@@ -6,6 +6,7 @@ import { FlowRouter } from 'meteor/kadira:flow-router';
 Template.Header.events({
   'click .logout': ()=> {
     Meteor.logout();
+    console.log("logout success");
     FlowRouter.go('/');
   }
 });

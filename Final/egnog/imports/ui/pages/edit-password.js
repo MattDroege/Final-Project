@@ -18,6 +18,7 @@ AutoForm.hooks({
      */
     onSuccess: function onSuccess(formType, result) {
       FlowRouter.go('List_Passwords');
+      console.log("list pass success");
     },
   },
 });
