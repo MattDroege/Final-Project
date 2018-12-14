@@ -28,21 +28,21 @@ FlowRouter.route('/usermain', {
 FlowRouter.route('/usermain/addpassword', {
   name: 'Add_Password',
   action() {
-    BlazeLayout.render('User_Main', { umain: 'Add_Password' });
+    BlazeLayout.render('App_Body', { main: 'User_Main', umain: 'Add_Password' });
   },
 });
 
 FlowRouter.route('/usermain/listpassword', {
   name: 'List_Passwords',
   action() {
-    BlazeLayout.render('User_Main', { umain: 'List_Passwords' });
+    BlazeLayout.render('App_Body', { main: 'User_Main', umain: 'List_Passwords' });
   },
 });
 
 FlowRouter.route('/usermain/editpassword/:_id', {
   name: 'Edit_Password',
   action() {
-    BlazeLayout.render('User_Main', { umain: 'Edit_Password' });
+    BlazeLayout.render('App_Body', { main: 'User_Main', umain: 'Edit_Password' });
   },
 });
 
