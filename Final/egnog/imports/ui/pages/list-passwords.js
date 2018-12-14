@@ -6,7 +6,6 @@ Template.List_Passwords.helpers({
 
   passwordsList() {
   	var currentUser = Meteor.userId();
-  	console.log("egshit");
     return Passwords.find({ ownerId: currentUser });
   },
 });
